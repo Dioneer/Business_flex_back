@@ -689,6 +689,18 @@ main {
   min-height: 411px;
 }
 
+[class*=copyrights-pane] {
+  display: none;
+}
+
+[class*=ground-pane] {
+  filter: sepia(100%) hue-rotate(180deg);
+}
+
+[class*=svg-icon-content] {
+  font-size: 16px;
+}
+
 .footer {
   padding: 0px 0px 2% 0px;
 }
