@@ -881,8 +881,8 @@ html.popup-show {
   overflow: hidden;
 }
 
-body.lock .contact {
-  pointer-events: none;
+body.lock {
+  overflow: hidden;
 }
 @media (max-width: 767.98px) {
   body.lock header:before {
